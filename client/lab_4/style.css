@@ -92,7 +92,7 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #ffe08a;
+  background-color: #8aff94;
   color: #4a4a4a;
 
   /* shapes */
@@ -151,13 +151,13 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: #DF3B57(0, 139, 139, 0.8);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .footer a {
-  color: rgba(255, 224, 138, 1);
+  color: #01172F(255, 224, 138, 1);
   text-decoration: underline;
 }
 
@@ -170,7 +170,7 @@ form {
   /* Hue, saturation, luminosity, alpha */
   background-color: hsla(0, 0%, 90%, 0.15);
   /* red, green, blue, alpha */
-  color: rgb(246, 169, 93);
+  color: #01172F(246, 169, 93);
   text-decoration: none;
 }
 
@@ -252,7 +252,7 @@ div.carousel {
   height: 45px;
   padding: 10px;
   line-height: 0; /* This centers a button's text! */
-  border: 2px solid rgb(99,99,99); /* shorthand for how to do a border */
+  border: 2px solid #01172F(99,99,99); /* shorthand for how to do a border */
 }
 
 .prev:focus,
