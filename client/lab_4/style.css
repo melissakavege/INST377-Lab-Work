@@ -8,7 +8,7 @@
 */
 
 html {
-  background-color: #fff;
+  background-color: #cfa6a6;
   font-size: 16px;
   min-width: 300px;
   overflow-x: hidden;
@@ -30,7 +30,7 @@ body {
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(243, 232, 232);
 }
 
 
@@ -55,7 +55,9 @@ form {
   - like this: <div class="wrapper">
   - note that the period vanishes there!
 */
-
+div {
+  border:2px dashed rgba(84, 22, 22, 0.8)
+}
 
 .wrapper {
   min-height: 100vh;
@@ -92,8 +94,8 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #8aff94;
-  color: #4a4a4a;
+  background-color: #121161;
+  color: #921c59;
 
   /* shapes */
   border-radius: 6px;
@@ -103,7 +105,7 @@ form {
 
 
   /* box-shadows are fancy */
-  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  box-shadow: 0 0.5em 1em -0.125em rgba(99, 70, 224, 0.1), 0 0 0 1px rgba(213, 12, 12, 0.02);
 }
 
 
@@ -117,7 +119,7 @@ form {
 */
 
 .box {
-  background-color: rgba(239, 239, 239, 0.40);
+  background-color: rgba(196, 14, 14, 0.4);
   border: 2px dashed;
   border-radius: 4px;
 
@@ -128,14 +130,15 @@ form {
 }
 
 .left_section {
-  background-color: #DF3B57(0, 139, 139, 0.8);
+  background-color: #90c4d2(255, 224, 138, 0.7);
+  flex: 1 2 auto;
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
 }
 
 .right_section {
-  background-color: #DF3B57(255, 224, 138, 0.7);
+  background-color: #c87ae3(255, 224, 138, 0.7);
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
@@ -175,7 +178,7 @@ form {
 }
 
 .subtitle {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(173, 191, 209, 0.8);
   margin: 0px;
   margin-bottom: 5px;
 }
@@ -300,6 +303,6 @@ form input {
     /* Rules in here will only apply when a screen is the correct size */
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
-      background-color: rgba(204, 8, 162, 0.65);
+      background-color: rgba(28, 22, 38, 0.65);
     }
 }
